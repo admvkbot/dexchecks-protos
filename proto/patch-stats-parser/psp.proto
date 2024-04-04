@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package patchStatsParserEvents;
+
+option go_package = "sr.psp.v1;pspv1";
+
+// service PatchStatsParserEvents {
+//    rpc Register (RegisterRequest) returns (RegisterResponse)
+// }
