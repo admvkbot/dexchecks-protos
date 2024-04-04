@@ -1,3 +1,3 @@
-module fgit.info/utils/protos
+module protos
 
 go 1.22
