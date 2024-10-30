@@ -32,4 +32,3 @@
         integration_test.go
     Dockerfile
     go.mod
-   README.md
