@@ -31,4 +31,5 @@
     /tests                      # Интеграционные и функциональные тесты
         integration_test.go
     Dockerfile
+    
     go.mod
