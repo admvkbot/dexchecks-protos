@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package wstoken;
+
+option go_package = "sr.wstoken.v1;wstokenv1";
+
+service WsToken {
+   rpc SubscribeToChain (ChainRequest) returns (stream ChainData);
+}
+
+message ChainRequest {
+   string chain = 1;
+}
+
+message ChainData {
+   string chain = 1;
+   string ticker = 2;
+   string tokenContractAddress = 3;
+   string tokenPairAddress = 4;
+}
